@@ -1,0 +1,168 @@
+/* CSS Document */
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+.village-jeu {
+	background-image: url(/media/images/wallpaper-video-images-zelda-game-53834.jpg);
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 300% auto;
+	
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  
+}
+
+.link {
+  background: url(/media/images/sprite-static.png) no-repeat center center fixed; 
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-size: 80px 100px;
+}
+
+.black-theme {
+	background-color: black !important;
+	color: green !important;	
+}
+
+.centre {
+	width: 100px;
+    height: 100px;
+   /* background-color: cyan;*/
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.bar-bas {
+	position: fixed;
+	background-color: black;
+    width: 100%;
+	bottom : 0;
+
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+}
+
+.copyright {
+	background-color: black;
+	color: white;
+	text-align: center;
+	bottom: 0;
+}
+
+/**
+ Icones
+ 
+ Notes: "!important" permet d'appliquer la classe. Ne fonctionne pas autrement avec Uikit.
+ L'animation est custom-made :)
+*/
+.icon-fb {
+	color: green !important;
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+.icon-fb:hover {
+	color: #3b5998 !important;
+	
+	/** glow */
+	-webkit-box-shadow: 0px 0px 3px 5px #3b5998;
+	-moz-box-shadow: 0px 0px 3px 5px #3b5998;
+	box-shadow: 0px 0px 3px 5px #3b5998; 
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+.icon-tw {
+	color: green !important;
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+.icon-tw:hover {
+	color: #4099FF !important;
+	
+	/** glow */
+	-webkit-box-shadow: 0px 0px 3px 5px #4099FF;
+	-moz-box-shadow: 0px 0px 3px 5px #4099FF;
+	box-shadow: 0px 0px 3px 5px #4099FF; 
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+.icon-yt {
+	color: green !important;
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
+
+.icon-yt:hover {
+	color: #b31217 !important;
+	
+	/** glow */
+	-webkit-box-shadow: 0px 0px 3px 5px #b31217;
+	-moz-box-shadow: 0px 0px 3px 5px #b31217;
+	box-shadow: 0px 0px 3px 5px #b31217; 
+	
+	/** transition */
+	-webkit-transition: 0.5s linear;
+	-moz-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+	-o-transition: 0.5s linear;
+	transition: 0.5s linear;
+}
