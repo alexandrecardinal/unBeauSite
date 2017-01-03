@@ -3,7 +3,7 @@
 2. Détection des touches directionnelles et changement de position de Link
 3. Interactions sociales **(+animation)**
 
-Voir l'[organisation](#Lorganisation_24).
+Voir l'[organisation](#lorganisation).
 
 ### Modifications récentes
 1. Menu
