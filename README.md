@@ -25,9 +25,13 @@ Voir l'[organisation](#lorganisation).
 ## L'organisation
 ### Templates [ici](templates)
 **avant-head.php** : Commentaires et IP block (et Login si il y a lieu)
+
 **head.php** : Charset, favicon, links CSS, description
+
 **haut-page.php** : Login System, Titre et Navigation
+
 **bas-page.php** : Communication Email, Facebook, etc
+
 **bas-page.php** : Copyright et scripts
 
 ### CSS et dépendances [ici](dependances)
