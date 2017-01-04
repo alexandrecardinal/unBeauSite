@@ -38,7 +38,17 @@
     	include '/templates/footer.php';
     ?>
 </footer>
+
+<?php
+        /* Footer: Scripts */ 
+    	include '/templates/scripts.php';
+?>
 <script>
+var maxHauteur = 100;
+var maxLargeur = 100;
+var positionX = 99;
+var positionY = 50;
+
 /* alert("Bêta 0.1:\n1)Structure de base (PHP+)\n2)Interactions sociales\nEN CONSTRUCTION:\n1)Link\n2)Menu"); */
 alert("Bêta 0.2:\n1)Structure fonctionnelle (PHP+)\n2)Détection des touches directionnelles et changement de position de Link" +
 "\n3)Interactions sociales (+animation)\nEN CONSTRUCTION:\n1)Menu\n2)Background\n3)Essais de styles d'animation");

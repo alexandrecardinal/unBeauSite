@@ -37,4 +37,9 @@
     	include '/templates/footer.php';
     ?>
 </footer>
+
+<?php
+        /* Footer: Scripts */ 
+    	include '/templates/scripts.php';
+?>
 </html>
