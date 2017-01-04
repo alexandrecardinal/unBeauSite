@@ -32,7 +32,9 @@ Voir l'[organisation](#lorganisation).
 
 **bas-page.php** : Communication Email, Facebook, etc
 
-**bas-page.php** : Copyright et scripts
+**footer.php** : Copyright
+
+**scripts.php** : Scripts
 
 ### CSS et dépendances [ici](dependances)
 Utilisation de Uikit et de FontAwesome. Jquery pour les scripts.
