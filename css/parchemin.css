@@ -1,42 +1,42 @@
 .parchmentTop {
-position:relative;
-width:730px;
-top:25px;
-font-family:georgia,times;
-font-style:italic;
-font-size:12pt;
-line-height:normal;
-background-image:url(../media/images/Parchment-Body.png);
-text-align: center;
-margin: 5px auto;
+	position:relative;
+	width:730px;
+	top:25px;
+	font-family:georgia,times;
+	font-style:italic;
+	font-size:12pt;
+	line-height:normal;
+	background-image:url(../media/images/Parchment-Body.png);
+	text-align: center;
+	margin: 5px auto;
 }
 
 .parchment {
-position:relative;
-top:-25px;width:730px;
-height:38px;
-background-image:url(../media/images/Parchment-Top-Blend-trans.png);
-text-align: center;
-margin: 0px auto;
+	position:relative;
+	top:-25px;width:730px;
+	height:38px;
+	background-image:url(../media/images/Parchment-Top-Blend-trans.png);
+	text-align: center;
+	margin: 0px auto;
 }
 
 .parchmentBottom {
-position:relative;
-bottom:-18px;
-right:-6px;
-width:730px;
-height:38px;
-background-image:url(../media/images/Parchment-Bottom-Blend-trans.png);
-margin-bottom:40px;
-text-align: center;
-margin: 0px auto;
+	position:relative;
+	bottom:-18px;
+	right:-6px;
+	width:730px;
+	height:38px;
+	background-image:url(../media/images/Parchment-Bottom-Blend-trans.png);
+	margin-bottom:40px;
+	text-align: center;
+	margin: 0px auto;
 }
 
 .parchmentBody {
-width:610px;
-padding: 1px 60px 2px 60px;
-text-align: center;
-margin: 15px auto;
+	width:610px;
+	padding: 1px 60px 2px 60px;
+	text-align: center;
+	margin: 15px auto;
 }
 
 #rcorners1 {
@@ -60,7 +60,11 @@ margin: 15px auto;
     
     border-radius: 25px;
     border: 2px solid #73AD21;
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
-    height: 150px;   
+    height: 150px;
+}
+
+p {
+	color: black !important;
 }

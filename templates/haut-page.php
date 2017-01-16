@@ -15,8 +15,9 @@
     <div class="uk-navbar-content uk-navbar-center">...</div>
     <a href="" class="uk-navbar-toggle"></a>
 </nav>-->
-<nav class="uk-navbar" data-uk-sticky>
-  <a class="uk-navbar-brand uk-hidden-small" href="#">BdeB</a>
+
+<!--<nav class="uk-navbar glass" data-uk-sticky>
+  <a class="uk-navbar-brand uk-hidden-small" href="journal.php">BdeB</a>
   <ul class="uk-navbar-nav uk-hidden-small">
     <li class="uk-parent" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
       <a href="#">Parent</a>
@@ -38,7 +39,7 @@
                 </ul>
               </li>
             </ul>
-            -->
+            ici le prochain
           </li>
         </ul>
       </div>
@@ -54,5 +55,16 @@
     </li>
   </ul>
   <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{target:'#offcanvas-1'}"></a>
+</nav>-->
+<nav>
+    <ul class="glass">
+      <li><a href="index.php">Accueil</a></li>
+      <li><a href="journal.php">Journal</a></li>
+      <li><a href="#">Photos/Vidéos</a></li>
+      <li><a href="#">Membres</a></li>
+      <li><a href="#">Commandites</a></li>
+    </ul>
 </nav>
-                    
+
+<!-- SOURIS -->
+<img style="z-index:54;" id="souris" src="/media/images/fee2.gif"/>

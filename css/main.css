@@ -10,14 +10,57 @@ body {
    margin: 0px;
    min-height: 100%;
    width: 100%;
+   z-index: 0;
+   overflow:hidden;
+}
+
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	z-index: 55;
+}
+
+li {
+    float: left;
+	z-index: 55;
+}
+
+li a {
+    display: block;
+    color: #D2B48C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	z-index: 55;
+}
+
+li a:hover {
+    background-color: grey;
+	z-index: 55;
+}
+/* FIN NAVIGATION */
+
+#souris {
+	position:absolute;
+}
+
+.conteneur-jeu {
+	width: absolute 1000px;
+	height: absolute 1000px;
 }
 
 .village-jeu {
-	background-image: url(/media/images/wallpaper-video-images-zelda-game-53834.jpg);
+	background-image: url(../media/images/wallpaper-video-images-zelda-game-53834.jpg);
  	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: 300% auto;
+  	min-height: 100vh;
+  	z-index: 1;
 	
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -25,18 +68,14 @@ body {
   /* Background image doesn't tile */
   background-repeat: no-repeat;
   
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
   
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  
 }
 
 .link {
-  background: url(/media/images/sprite-static.png) no-repeat center center fixed; 
+  background: url(../media/images/sprite-static.png) no-repeat center center fixed; 
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,17 +88,58 @@ body {
 	color: green !important;	
 }
 
+.dark-background {
+	background-image: url(../media/images/wallpaper-zelda.jpg);
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 200% auto;
+  	min-height: 100vh;
+  	z-index: 1;
+	
+  	background-position: center center;
+  
+  	background-repeat: no-repeat;
+  
+
+  	background-attachment: fixed;
+
+ 	background-color: #464646;
+	
+	/* ANIMATION BLUR */
+	/*-webkit-animation: image_blur 2s !important; 
+ 	-moz-transition: image_blur 2s !important;
+	-ms-transition:image_blur 2s !important;
+	-o-transition: image_blur 2s !important;*/
+}
+
+/*@-webkit-keyframes blur-bg {
+    0% { -webkit-filter: blur(0px);}
+	50% { -webkit-filter: blur(5px);}
+	100% { -webkit-filter: blur(0px);}
+}*/
+
+
+.blur {
+  -webkit-animation: blur 3s infinite;
+}
+
+@-webkit-keyframes blur {
+  0%, 100%  { -webkit-filter: blur(0px); }
+  50% { -webkit-filter: blur(10px); }
+}
+
 .centre {
 	width: 100px;
     height: 100px;
    /* background-color: cyan;*/
 
-    position: absolute;
+    position: fixed;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-
+    z-index: 50;
     margin: auto;
 }
 

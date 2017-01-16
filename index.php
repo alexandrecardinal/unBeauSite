@@ -10,18 +10,52 @@
     	include '/templates/head.php';
     ?>
     <!-- À changer par page -->
-	<title>Bêta 0.2</title>
+	<title>Bêta 0.3</title>
 </head>
 
 
-<body class="village-jeu">
+<body class="">
 	<!-- En haut de page -->
 	<?php
         /* Haut-page: Login System, Titre, Navigation et plus... */ 
     	include '/templates/haut-page.php';
     ?>
+    <body>
+
+    <!--Contenu -->
+    <!-- Musique -->
+    <!--<audio style="hidden:true;" autoplay="true" src="/media/musiques/04-overworld.mp3"/>-->
     
-	<!--Contenu -->
+    <!-- Message de bienvenue -->
+    <div id="parch" class="parchmentTop uk-animation-fade" style="z-index:51;"><div class="parchment" 
+    style="z-index:51;"></div><div class="parchmentBody" style="z-index:51;">
+		<h1 style="color:black;">Bienvenue!</h1>
+        <p>
+		Bienvenue dans le monde de Zelda! Veuillez utiliser les touches</br>
+        directionnelles pour vous déplacer ou utiliser la navigation.</br>
+        Profitez de l'ambiance!
+        </p>
+        <p>
+		Welcome to the universe of Zelda! You may move using arrow</br>
+        keys or use the navigation bar as you please.</br>
+        Have fun!
+		</p>
+
+		<button id="boutonParch" class="uk-button-large" type="button">...</button>
+        <script>
+			$( "#boutonParch" ).click(function() {
+				$( "#parch" ).fadeOut( "slow" );
+			});
+		</script>
+	</div><div class="parchmentBottom" style="z-index:51;"></div></div>
+    
+    
+    <div class-"conteneur-jeu">
+        <div class="village-jeu">
+            &nbsp;
+        </div>
+    </div>
+    
     <div class="centre link">
     </div>
     
@@ -44,13 +78,9 @@
     	include '/templates/scripts.php';
 ?>
 <script>
-var maxHauteur = 100;
-var maxLargeur = 100;
-var positionX = 99;
-var positionY = 50;
-
-/* alert("Bêta 0.1:\n1)Structure de base (PHP+)\n2)Interactions sociales\nEN CONSTRUCTION:\n1)Link\n2)Menu"); */
-alert("Bêta 0.2:\n1)Structure fonctionnelle (PHP+)\n2)Détection des touches directionnelles et changement de position de Link" +
-"\n3)Interactions sociales (+animation)\nEN CONSTRUCTION:\n1)Menu\n2)Background\n3)Essais de styles d'animation");
+var maxHauteur = 1000000;
+var maxLargeur = 1000000;
+var positionX = 0;
+var positionY = 0;
 </script>
 </html>
