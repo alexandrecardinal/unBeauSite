@@ -60,5 +60,5 @@
         /* Footer: Scripts */ 
     	include '/templates/scripts.php';
 ?>
-<audio style="hidden:true;" autoplay="true" src="/media/musiques/24-the-goddess-appears.mp3"/>
+<audio style="hidden:true;" autoplay src="/media/musiques/24-the-goddess-appears.mp3" loop/>
 </html>

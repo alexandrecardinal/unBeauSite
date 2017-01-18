@@ -131,5 +131,5 @@
 	});
 </script>
 <!-- Musique -->
-<audio style="hidden:true;" autoplay="true" src="/media/musiques/04-overworld.mp3"/>
+<audio style="hidden:true;" autoplay src="/media/musiques/04-overworld.mp3" loop/>
 </html>
