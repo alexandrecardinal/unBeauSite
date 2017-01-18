@@ -5,6 +5,7 @@
 
 Voir l'[organisation](#lorganisation).
 Voir le [guide](#guide) pour tester le site.
+Liste de [bugs](#bugs)
 
 ### Modifications récentes
 1. Autre menu
@@ -18,11 +19,22 @@ Voir le [guide](#guide) pour tester le site.
 * ~~Animation de la souris~~
 * ~~Texte dans un encadré style Zelda/Moyen-Âge~~
 * Animation de fées pour les commandites
+* Une nouvelle carte
+* Style pour la présentation de l'équipe
+* Style pour les médias (photos et vidéos)
 
 ### Plus tard:
 * **Création de la page facebook, twitter et la chaine youtube**
 * Créations artistiques de photo à style pixelisé
 * Ajout de sons :mag_right:
+
+### Bugs
+* Fade out apres le click du bouton au message de bienvenue
+* Animation du même bouton
+* Arrière-plan: La couche blanche, le déplacement (vitesse), et la synchronisation avec la taille du navigateur
+* 3 fées pour la souris (différentes vitesses)
+* Flou de l'arrière-plan de la page journal.php
+
 
 ## L'organisation
 ### Templates [ici](templates)
