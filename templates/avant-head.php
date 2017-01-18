@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 
 Si un jour tu lis ce message, c'est que j'ai prédis ta curiosité :P J'aimerai juste te faire part de...
 

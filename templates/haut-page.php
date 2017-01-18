@@ -67,4 +67,4 @@
 </nav>
 
 <!-- SOURIS -->
-<img style="z-index:54;" id="souris" src="/media/images/fee2.gif"/>
+<img style="z-index:54;position:absolute;" id="souris" src="/media/images/fee2.gif"/>

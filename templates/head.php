@@ -1,4 +1,4 @@
-﻿
+
 <!-- Style visible -->
 <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
 
