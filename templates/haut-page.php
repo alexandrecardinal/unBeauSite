@@ -57,10 +57,10 @@
   <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{target:'#offcanvas-1'}"></a>
 </nav>-->
 <nav>
-    <ul class="glass">
+    <ul>
       <li><a href="index.php">Accueil</a></li>
       <li><a href="journal.php">Journal</a></li>
-      <li><a href="#">Photos/Vidéos</a></li>
+      <li><a href="media.php">Photos/Vidéos</a></li>
       <li><a href="#">Membres</a></li>
       <li><a href="#">Commandites</a></li>
     </ul>

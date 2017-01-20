@@ -14,7 +14,7 @@
 </head>
 
 
-<body class="dark-background uk-animation-fade">
+<body class="dark-background uk-animation-fade" style="overflow: hidden;">
 	<!-- En haut de page -->
 	<?php
         /* Haut-page: Login System, Titre, Navigation et plus... */ 
@@ -22,7 +22,7 @@
     ?>
     
 	<!--Contenu -->
-    <div style="display: flex;justify-content: center;" class="uk-animation-fade">
+    <div style="display: flex;justify-content: center;padding-top:100px;" class="uk-animation-fade">
         <div id="flipbook">
             <div class="hard"> Exemple </div>
             <div class="hard"></div>

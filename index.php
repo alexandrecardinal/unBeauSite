@@ -14,13 +14,12 @@
 </head>
 
 
-<body class="">
+<body style="overflow:hidden;">
 	<!-- En haut de page -->
 	<?php
         /* Haut-page: Login System, Titre, Navigation et plus... */ 
     	include '/templates/haut-page.php';
     ?>
-    <body>
 
     <!--Contenu -->
     
