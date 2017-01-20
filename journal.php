@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <?php
         /* Avant head: Ip Block, Commentaire, Login Conditions et plus... */ 
        include '/templates/avant-head.php';
@@ -24,7 +24,7 @@
 	<!--Contenu -->
     <div style="display: flex;justify-content: center;padding-top:100px;" class="uk-animation-fade">
         <div id="flipbook">
-            <div class="hard"> Exemple </div>
+            <div class="hard"><img src="/media/images/Journal/LivreZeldaDroiteTEST.jpg"></div>
             <div class="hard"></div>
             <div> Date 1 </div>
             <div> Date 2 </div>
