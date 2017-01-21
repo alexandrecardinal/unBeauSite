@@ -10,7 +10,7 @@
     	include '/templates/head.php';
     ?>
     <!-- À changer par page -->
-	<title>Bêta 0.3</title>
+	<title>Bêta 0.4</title>
 </head>
 
 

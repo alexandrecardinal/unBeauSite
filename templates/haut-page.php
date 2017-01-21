@@ -61,8 +61,8 @@
       <li><a href="index.php">Accueil</a></li>
       <li><a href="journal.php">Journal</a></li>
       <li><a href="media.php">Photos/Vidéos</a></li>
-      <li><a href="#">Membres</a></li>
-      <li><a href="#">Commandites</a></li>
+      <li><a href="membres.php">Membres</a></li>
+      <li><a href="commandites.php">Commandites</a></li>
     </ul>
 </nav>
 

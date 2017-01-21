@@ -1,17 +1,16 @@
-# Bêta 0.3:
+# Bêta 0.4:
 1. Structure fonctionnelle (PHP+)
 2. Détection des touches directionnelles et changement de position de Link
 3. Interactions sociales **(+animation)**
+4. Livre animé pour le journal
 
 Voir l'[organisation](#lorganisation).
 Voir le [guide](#guide) pour tester le site.
 Liste de [bugs](#bugs)
 
 ### Modifications récentes
-1. Autre menu
-2. Background
-3. Essais de styles d'animations
-4. Livre animé pour le journal
+1. Ajouts de pages et de contenu
+2. Essais de styles d'animations
 
 ### À faire:
 * Créer un tableau javascript/jquery et marquer un deplacement quelconque avec les touches directionnelles
@@ -21,10 +20,11 @@ Liste de [bugs](#bugs)
 * Animation de fées pour les commandites
 * Une nouvelle carte
 * Style pour la présentation de l'équipe
-* Style pour les médias (photos et vidéos)
+* ~~Style pour les médias (photos et vidéos)~~
 
 ### Plus tard:
-* **Création de la page facebook, twitter et la chaine youtube**
+* ~~**Création de la page facebook, twitter et la chaine youtube**~~
+* Ajout de contenu à ses pages :mag_right:
 * Créations artistiques de photo à style pixelisé
 * Ajout de sons :mag_right:
 
@@ -33,7 +33,7 @@ Liste de [bugs](#bugs)
 * Animation du même bouton
 * Arrière-plan: La couche blanche, le déplacement (vitesse), et la synchronisation avec la taille du navigateur
 * 3 fées pour la souris (différentes vitesses)
-* Flou de l'arrière-plan de la page journal.php
+* ~~Flou de l'arrière-plan de la page journal.php~~
 
 
 ## L'organisation
@@ -51,7 +51,7 @@ Liste de [bugs](#bugs)
 **scripts.php** : Scripts
 
 ### CSS et dépendances [ici](dependances)
-Utilisation de Uikit et de FontAwesome. Jquery pour les scripts.
+Utilisation de Uikit et de FontAwesome. Jquery pour les scripts et turnjs pour le journal.
 
 ### Media [ici](dependances)
 On retrouve ici les spritesheets de Zelda, la map, etc.
