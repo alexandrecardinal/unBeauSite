@@ -24,12 +24,14 @@
 	<!--Contenu -->
     <div style="display: flex;justify-content: center;padding-top:100px;" class="uk-animation-fade">
         <div id="flipbook">
-            <div class="hard"><img src="/media/images/Journal/LivreZeldaDroiteTEST.jpg"></div>
+            <div class="hard"><img src="/media/images/Journal/CouvertureZeldaFINAL.png"></div> 
             <div class="hard"></div>
-            <div> Date 1 </div>
-            <div> Date 2 </div>
-            <div> Date 3 </div>
-            <div> Date 4 </div>
+            <div><img src="/media/images/Journal/LivreZeldaDroiteTEST.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP2.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP3.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP4.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP4.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP4.jpg"></div> 
             <div class="hard"></div>
             <div class="hard"></div>
         </div>
