@@ -130,6 +130,27 @@ li a:hover {
 	-o-transition: image_blur 2s !important;*/
 }
 
+.membres-background {
+	double bSize = 100%;
+	/* localhost/css/main.css */
+	background-image: url(../media/images/Membres/Vendeur_de_Masque.png);
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	/*background-size: 106% auto;*/
+	background-size: 100% auto;
+	
+  	z-index: 1;
+	
+  	background-position: center center;
+  
+  	background-repeat: no-repeat;
+  
+  	background-attachment: fixed;
+
+ 	background-color: #464646;
+}
+
 /*GALERIE */
 .video {
 	
