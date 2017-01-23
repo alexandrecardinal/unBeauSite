@@ -71,7 +71,18 @@
 ?>
 <audio style="hidden:true;" autoplay src="/media/musiques/24-the-goddess-appears.mp3" loop/>
 <script>
-//Dust Particles Simulation by bionicoz based on
+var isChromium = window.chrome,
+    winNav = window.navigator,
+    vendorName = winNav.vendor,
+    isOpera = winNav.userAgent.indexOf("OPR") > -1,
+    isIEedge = winNav.userAgent.indexOf("Edge") > -1,
+    isIOSChrome = winNav.userAgent.match("CriOS");
+
+if(isIOSChrome){
+   // is Google Chrome on IOS
+} else if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false) {
+   // is Google Chrome
+   //Dust Particles Simulation by bionicoz based on
 //Basic Particle Animation
 //Author: Brandon John-Freso
 $(function () {
@@ -267,5 +278,8 @@ $(function () {
 
 
 });
+} else { 
+   // not Google Chrome 
+}
 </script>
 </html>

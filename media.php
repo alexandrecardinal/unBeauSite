@@ -54,10 +54,10 @@
        <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" style="color: rgba(255,255,255,0.4)"></a>
        <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" style="color: rgba(255,255,255,0.4)"></a>
 	</div>-->
-    <div style="padding: 150px 50px 0px 150px;">
-    	<iframe width="854" height="480" class="video" src="https://www.youtube.com/embed/1rPxiXXxftE" frameborder="0" allowfullscreen></iframe>
-    </div>
     <div class="gallery cf" style="padding: 150px 50px 200px 150px;">
+      <div>
+        <iframe width="300" height="187" class="video" src="https://www.youtube.com/embed/1rPxiXXxftE" frameborder="0" allowfullscreen></iframe>
+      </div>
       <div>
         <img style="width:300px;" src="/media/images/wallpaper-video-images-zelda-game-53834.jpg" />
       </div>

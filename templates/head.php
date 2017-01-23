@@ -20,3 +20,19 @@
 <script src="dependances/turnjs4/turn.html4.min.js"></script>
 <script type="text/javascript" src="dependances/turnjs4/turn.html4.min.js"></script>
 <script type="text/javascript" src="dependances/jquery-ui.min.js"></script>
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="/edge_includes/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-365579533 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('navbar', 'EDGE-365579533', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "1600px",
+    height: "50px"
+}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1600px","50px"],"fill":["rgba(255,255,255,1)"]}},"dom":{}}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1600px","50px"],"fill":["rgba(255,255,255,1)"]}},"dom":{}});
+</script>
+<!--Adobe Edge Runtime End-->

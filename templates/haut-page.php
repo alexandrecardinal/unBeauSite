@@ -56,7 +56,7 @@
   </ul>
   <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{target:'#offcanvas-1'}"></a>
 </nav>-->
-<nav>
+<!--<nav>
     <ul>
       <li><a href="index.php">Accueil</a></li>
       <li><a href="journal.php">Journal</a></li>
@@ -64,7 +64,9 @@
       <li><a href="membres.php">Membres</a></li>
       <li><a href="commandites.php">Commandites</a></li>
     </ul>
-</nav>
+</nav>-->
+<div id="Stage" class="EDGE-365579533">
+</div>
 
 <!-- SOURIS -->
 <img style="z-index:54;position:absolute;" id="souris" src="/media/images/fee2.gif"/>
