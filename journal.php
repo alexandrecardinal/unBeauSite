@@ -22,16 +22,25 @@
     ?>
     
 	<!--Contenu -->
-    <div style="display: flex;justify-content: center;position: absolute;margin: -298px 0 0 -421px;top: 50%;left: 50%;" class="uk-animation-fade">
+    <div style="display: flex;justify-content: center;position: absolute;margin: -296px 0 0 -421px;top: 50%;left: 50%;" class="uk-animation-fade">
         <div id="flipbook">
             <div class="hard"><img src="/media/images/Journal/CouvertureZeldaFINAL.png"></div> 
-            <div class="hard"></div>
+            <div class="hard"><img src="/media/images/Journal/remplissageCoverLivreZeldaV2.png"></div>
+            <!--NE PAS AVOIR UN NBR IMPAIR DE PAGES: SA FUCK TOUTE!!! -->
             <div><img src="/media/images/Journal/LivreZeldaDroiteTEST.jpg"></div>
             <div><img src="/media/images/Journal/LivreZeldaP2.jpg"></div>
             <div><img src="/media/images/Journal/LivreZeldaP3.jpg"></div>
             <div><img src="/media/images/Journal/LivreZeldaP4.jpg"></div>
-            <div class="hard"></div>
-            <div class="hard"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP5.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP6.jpg"></div> 
+            <div><img src="/media/images/Journal/LivreZeldaP7.jpg"></div> 
+            <div><img src="/media/images/Journal/LivreZeldaP8.jpg"></div> 
+            <div><img src="/media/images/Journal/LivreZeldaP9.jpg"></div>
+            <div><img src="/media/images/Journal/LivreZeldaP10.jpg"></div> 
+            <div><img src="/media/images/Journal/LivreZeldaP11.jpg"></div>
+            <div><img src="/media/images/Journal/indesignGAUCHE.png"></div> 
+            <div class="hard"><img src="/media/images/Journal/remplissageCoverLivreZeldaDroite.png"></div>
+            <div class="hard"><img src="/media/images/Journal/LivreZeldaBACKCOVER.png"></div>
         </div>
     </div>
 	<script type="text/javascript">
