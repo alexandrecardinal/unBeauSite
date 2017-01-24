@@ -110,13 +110,10 @@ li a:hover {
 }
 
 .village-jeu {
-	background-image: url(../media/images/wallpaper-video-images-zelda-game-53834.jpg);
- 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: 300% auto;
-  	min-height: 100vh;
-  	z-index: 1;
+	background-image: url(../media/images/bg-large.jpg);
+	min-height: 100vh;
+	z-index: 1;
+  transform: translate(-1190px, -510px);
 	
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -128,6 +125,8 @@ li a:hover {
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
+  width: 4000px;
+  height: 2500px; // Prendre exactement les mêmes mesure que l'image.
 }
 
 .link {

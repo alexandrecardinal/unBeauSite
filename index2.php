@@ -79,9 +79,13 @@
 	//Déplacement link
 	var maxHauteur = 1000000;
 	var maxLargeur = 1000000;
-	var positionX = 0;
-	var positionY = 0;
-	
+  var grandeurPas = 50; // Correspond à 50px / pas
+  // Cette valeur correspond à la position initiale. Pour setter cette valeur, il faut
+  // faire positionEnXOriginale / grandeurPas, où positionEnXOriginale est spécifiée
+  // à la valeur de transform: translate pour .village-jeu dans main.css
+  var positionX = -1190 / grandeurPas; 
+  var positionY = -510 / grandeurPas;
+  
 	$(document).keydown(function(e) {
 	  var $playground = $('.village-jeu');
 	
@@ -125,7 +129,7 @@
 	
 	  function movePlayground(x, y) {
 		console.log($playground);
-		$playground.css('transform', 'translate(' + 5 * x + 'px, ' + 5 * y + 'px)');
+		$playground.css('transform', 'translate(' + grandeurPas * x + 'px, ' + grandeurPas * y + 'px)');
 	  }
 	});
 </script>
